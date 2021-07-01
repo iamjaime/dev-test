@@ -1,0 +1,23 @@
+{
+  "name": "puppy-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "prettier --list-different 'contracts/**/*.sol'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.13"
+  },
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "chai": "^4.3.4"
+  }
+}
